@@ -3,7 +3,7 @@ import socket
 hostname = "localhost"
 pesan = ''
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect((hostname, 50002))
+s.connect((hostname, 50005))
 print "Menghitung Luas Bola"
 while pesan.lower() != 'keluar':
     pesan = raw_input("pesan:")
